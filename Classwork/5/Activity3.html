@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+   <head>
+      <title>Activity 3 Page</title>
+   </head>
+   <body>
+      <p><a href="https://codd.cs.gsu.edu/~adansinghani1/WebProgramming/Classwork/5/index.html"><u>Home</u></a></p>
+      <form action = "emailreg.php" method = "POST">
+         <table>
+            <tbody>
+               <tr>
+                  <td class="inputTitle"><label for="name">Name:</label></td>
+                  <td class="inputError">&nbsp;</td>
+                  <td class="inputInput"><input id="name" size="35" type="text" placeholder="John Doe" /></td>
+               </tr>
+               <tr>
+                  <td class="inputTitle"><label for="email">Email:</label></td>
+                  <td class="inputError">&nbsp;</td>
+                  <td class="inputInput"><input id="email" size="40" type="text" placeholder="johndoe@email.com" /></td>
+               </tr>
+               <tr>
+                  <td class="inputTitle"><label for="address">Address:</label></td>
+                  <td class="inputError">&nbsp;</td>
+                  <td class="inputInput"><textarea placeholder="1234 Mountain Dew Lane..."type="text" id="address" cols="60" name="address" type= "text" rows="5"></textarea></td>
+               </tr>
+               <tr>
+                  <td class="inputTitle"><label for="zipcode">Zipcode:</label></td>
+                  <td class="inputError">&nbsp;</td>
+                  <td class="inputInput"><input id="zipcode" size="20" type="text" placeholder="12345" /></td>
+               </tr>
+            </tbody>
+         </table>
+         <input type = "submit" value = "Submit" />
+	<input type = "reset" value = "Reset" />
+      </form>
+   </body>
+</html>

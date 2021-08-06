@@ -1,0 +1,31 @@
+<!DOCTYPE HTML>
+<HTML>
+  <HEAD>
+   <title>Activity 1 Page</title>
+    <form action="https://codd.cs.gsu.edu/~adansinghani1/WebProgramming/Assignment/2/index.html">
+         <button type="submit">Home</button>
+      </form>
+    <h2> Welcome to my Assignment 1 Page! </h2>
+   </HEAD>
+    <BODY>
+      <form name = repeatName>
+  	<table>
+            <tbody>
+               <tr>
+                  <td class="inputTitle"><label for="name">My Name:</label></td>
+                  <td class="inputError">&nbsp;</td>
+                  <td class="inputInput"><input id="name" size="35" type="text" placeholder="John Doe" /></td>
+               </tr>
+	    </tbody>
+         </table>
+	<INPUT type="button" value="Click ME!" onclick="formData()"/>
+      </form>
+	<script>
+	function formData() 
+	{
+	var name1 = document.forms["repeatName"]["name"].value;
+	alert("Welcome to my page " + name1);
+	}
+	</script>
+    <BODY>
+<HTML>

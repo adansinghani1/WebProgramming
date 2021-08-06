@@ -1,0 +1,124 @@
+body {
+  background-image: url('wallpapersden.com/image/download/line-light-background_aGVsZpSZmpqtpaSklGdqa2WtZmVtZQ.jpg');
+  width: 80%;
+  background-color: #82d1ff; /* Used if the image is unavailable */
+  height: 500px; /* You must set a specified height */
+  background-position: center; /* Center the image */
+  background-repeat: no-repeat; /* Do not repeat the image */
+  background-size: cover; /* Resize the background image to cover the entire container */
+  margin-left:auto;
+  margin-right:auto;
+
+}
+table, td, th{
+  width:100%;
+  table-layout: fixed;
+  text-align: center;
+  border-style: solid ;
+  overflow-wrap: break-word;
+}
+
+tr:nth-child(even) {
+background-color: #ececec
+}
+
+div.cent{
+text-align: center;
+}
+
+div.right {
+  height: 1300px;
+  width: 45px;
+  float: right;
+  position: inherit;
+}
+
+.bolder {
+font-weight: bolder;
+font-size: 20px;
+}
+
+div.border {
+  text-align: center;
+  border-style: solid;
+}
+
+div.b {
+  text-align: right;
+}
+.left-info {
+font-size: 20px;
+line-height: 50px;
+font-weight: bold;
+}
+
+.padclass {
+padding: 20px;
+}
+
+.sec {
+  display: flex;
+  flex-direction: row;
+}
+
+div.c {
+  text-align: center;
+  border-style: solid;
+  width: 100%
+}
+
+div.int {
+  text-align: left;
+  border-style: solid;
+  top:50px
+}
+
+div.edu {
+  text-align: left;
+  border-style: solid;
+}
+
+cust{
+  color: red;
+	font-weight: bold;
+}
+
+link:hover {
+	color: red;
+}
+a:link {
+  color: #001aff;
+  text-decoration: none;
+}
+a:visited {
+  color: #2b026b;
+}
+a:hover {
+  color: red;
+}
+div {
+  border-radius: 5px;
+}
+
+p,
+li {
+  font-family: 'Cormorant Garamond';
+}
+
+.head {
+  font-size: 20px;
+}
+
+#name {
+  font-family: Sacramento;
+  float: right;
+  margin-top: 10px;
+  margin-right: 4%;
+}
+
+a {
+  color: black;
+  text-decoration: none;
+}
+
+

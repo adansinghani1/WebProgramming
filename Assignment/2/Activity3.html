@@ -1,0 +1,30 @@
+<!DOCTYPE HTML>
+<html>
+   <head>
+      <title>Activity 3 Page</title>
+      <form action="https://codd.cs.gsu.edu/~adansinghani1/WebProgramming/Assignment/2/index.html">
+         <button type="submit">Home</button><br></br>
+      </form>
+      <big> Simple Virtual Keyboard with Eight Keys</big><br></br>
+      <script>
+         function printOutput(char) {
+         document.getElementById("chars").innerHTML+= char;
+         }
+         
+             
+      </script>
+   </head>
+   <body>
+      <input type="button" value="A" onclick="printOutput('A')">
+      <input type="button" value="B" onclick="printOutput('B')">
+      <input type="button" value="C" onclick="printOutput('C')">
+      <input type="button" value="D" onclick="printOutput('D')">
+      <input type="button" value="E" onclick="printOutput('E')">
+      <input type="button" value="F" onclick="printOutput('F')">
+      <input type="button" value="G" onclick="printOutput('G')">
+      <input type="button" value="H" onclick="printOutput('H')">
+      <input type="button" value="Space" onclick="printOutput(' ')">
+      <br>
+      <p id="chars"></p>
+   </body>
+</html>

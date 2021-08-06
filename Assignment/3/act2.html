@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+   <head>
+      <title>Activity 2</title>
+   </head>
+   <body>
+      <script>
+         function funA(firstRow,firstSym) {
+             document.write("<br> A) <br>");
+             for(let i=0;i<firstRow;i++){
+                 for(let j=0;j<=i;j++){
+                     document.write(firstSym);
+                 }
+                 document.write("<br>");
+             }
+         }
+         
+         function funB(secondRow,secondSym) {
+             document.write("<br> B) <br>");
+             for(let i=secondRow;i>0;i--){
+                 for(let j=i;j>0;j--){
+                 document.write(secondSym);
+                         
+                 }
+             document.write("<br>");
+             }
+         }
+         let firstRow=prompt("How many rows for Part A? ");
+         let firstSym=prompt("What symbol for Part A?  ");
+         let secondRow=prompt("How many rows for Part B? ");
+         let secondSym=prompt("What symbol for Part B? ");
+         funA(firstRow,firstSym);
+         funB(secondRow, secondSym);
+      </script>
+   </body>
+</html>

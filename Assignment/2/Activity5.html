@@ -1,0 +1,25 @@
+<!DOCTYPE HTML>
+<html>
+
+  <head>
+   <title>Activity 5 Page</title>
+    <form action="https://codd.cs.gsu.edu/~adansinghani1/WebProgramming/Assignment/2/index.html">
+         <button type="submit">Home</button>
+      </form>
+     <h1> Converting an Array into a Table </h1>
+  </head>
+    <body>
+      <script>
+	var students = [{ name: "Andy", id: 1, major: "Computer Science" },{ name: "Ben", id: 2, major: "Biology" },{ name: "Hari", id: 3, major: "Computer Science" },{ name: "Lisa", id: 4, major: "Physics" },{ name: "Wendy", id: 5, major: "Mathematics" }];
+
+	document.write("<table border='2'> <tr> <th> ID </th> <th> Name </th> <th> Major </th> </tr>");
+
+	for (var i = 0; i < students.length;i++) {
+		document.write("<tr> <td>" + students[i].id + "</td> <td>" + students[i].name + "</td> <td> "+ students[i].major + "</td> </tr>");
+	}
+	document.write("</table>");
+
+       </script>
+     </body>
+
+</html>

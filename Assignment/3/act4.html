@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+   <head>
+      <title> Activity 4 </title>
+   </head>
+   <body>
+      <!-- Use JavaScript programming code to validate the Palindrome numbers or strings. -->  
+      <script>
+         var a = prompt("Palindrome Checker. Gimme a word to check:  ");
+         var begin = 0;
+         var last = a.length-1;
+         var bool = true;
+         while(begin<last){
+             if(a[begin]!=a[last]){
+                 bool = false;
+                 break;
+             }
+             begin++;
+             last--;
+         }
+         if(bool){
+             document.write(a+" qualifies as a Palindrome!");
+         }
+         else{
+             document.write(a+" does not qualify as a Palindrome. Try a different word next time!");
+         }
+      </script>
+   </body>
+</html>

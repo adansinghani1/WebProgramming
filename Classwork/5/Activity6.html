@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html>
+   <head>
+      <title>Activity 6 Page</title>
+   </head>
+   <body>
+      <p><a href="https://codd.cs.gsu.edu/~adansinghani1/WebProgramming/Classwork/5/index.html"><u>Home</u></a></p>
+      <form action="mailto:someone@example.com" method="post" enctype="text/plain">
+         <table>
+            <tbody>
+               <tr>
+                  <td class="inputTitle"><label for="name">Name:</label></td>
+                  <td class="inputError">&nbsp;</td>
+                  <td class="inputInput"><input id="name" size="35" type="text" placeholder="John Doe" /></td>
+               </tr>
+            </tbody>
+         </table>
+         <br></br>
+         <label for="title">Title:</label>
+         <select name="title" id="title">
+            <option value=""></option>
+            <option value="Mr.">Mr.</option>
+            <option value="Mrs.">Mrs.</option>
+            <option value="Ms.">Ms.</option>
+            <option value="Miss">Miss</option>
+            <option value="Dr.">Dr.</option>
+         </select>
+         <label for="gender">Gender:</label>
+         <select name="gender" id="gender">
+            <option value=""></option>
+            <option value="Male">Male</option>
+            <option value="Female">Female</option>
+         </select>
+         <label for="status">Employment Status:</label>
+         <select name="status" id="status">
+            <option value=""></option>
+            <option value="Employed">Employed</option>
+            <option value="Unemployed">Unemployed</option>
+            <option value="Student">Student</option>
+         </select>
+         <br></br>
+         <label>
+            Date of Birth:
+            <select name="months" multiple size="5">
+               <optgroup label="Months">
+                  <option value="January">January</option>
+                  <option value="February">February</option>
+                  <option value="March">March</option>
+                  <option value="April">April</option>
+                  <option value="May">May</option>
+               </optgroup>
+            </select>
+            <select name="month" multiple size="5">
+               <optgroup label="Day">
+                  <option value="1">1</option>
+                  <option value="2">2</option>
+                  <option value="3">3</option>
+                  <option value="4">4</option>
+                  <option value="5">5</option>
+                  <option value="6">6</option>
+                  <option value="7">7</option>
+                  <option value="8">8</option>
+                  <option value="9">9</option>
+                  <option value="10">10</option>
+               </optgroup>
+            </select>
+            <select name="months" multiple size="5">
+               <optgroup label="Year">
+                  <option value="1960">1960</option>
+                  <option value="1961">1961</option>
+                  <option value="1962">1962</option>
+                  <option value="1963">1963</option>
+                  <option value="1964">1964</option>
+                  <option value="1965">1965</option>
+               </optgroup>
+            </select>
+         </label>
+         <br></br>
+         <table>
+            <tbody>
+               <tr>
+                  <td class="inputTitle"><label for="email">Email:</label></td>
+                  <td class="inputError">&nbsp;</td>
+                  <td class="inputInput"><input id="email" size="40" type="text" placeholder="johndoe@email.com" /></td>
+               </tr>
+               <tr>
+                  <td class="inputTitle"><label for="address">Address:</label></td>
+                  <td class="inputError">&nbsp;</td>
+                  <td class="inputInput"><textarea placeholder="1234 Mountain Dew Lane..."type="text" id="address" cols="60" name="address" type= "text" rows="5"></textarea></td>
+               </tr>
+               <tr>
+                  <td class="inputTitle"><label for="zipcode">Zipcode:</label></td>
+                  <td class="inputError">&nbsp;</td>
+                  <td class="inputInput"><input id="zipcode" size="20" type="text" placeholder="12345" /></td>
+               </tr>
+            </tbody>
+         </table>
+         <input type = "submit" value = "Submit" />
+         <input type = "reset" value = "Reset" />
+      </form>
+      <br>
+      <br>
+      <h>
+      Miscellaneous Questions: 
+      <h>
+      <p>1. Do you like playing computer games?</p>
+      <div>
+         <input type="radio" id="op1" name="op1" value="op1">
+         <label for="op1">Yes</label>
+      </div>
+      <div>
+         <input type="radio" id="op1" name="op1" value="op1">
+         <label for="op1">No</label>
+      </div>
+      <p>2. How much did you enjoy the 'Star Wars' Trilogy?</p>
+      <div>
+         <input type="radio" id="op2" name="op2" value="op2">
+         <label for="op2">"I enjoyed it"</label>
+      </div>
+      <div>
+         <input type="radio" id="op2" name="op2" value="op2">
+         <label for="op2">"I didn't enjoy it"</label>
+      </div>
+      <div>
+         <input type="radio" id="op2" name="op2" value="op2">
+         <label for="op2">"I haven't seen it"</label>
+      </div>
+      <p>3. Do you have an email? </p>
+      <div>
+         <input type="radio" id="op3" name="op3" value="op3">
+         <label for="op3">Yes</label>
+      </div>
+      <div>
+         <input type="radio" id="op3" name="op3" value="op3">
+         <label for="op3">No</label>
+      </div>
+      <p>4. Is chocolate delicious? </p>
+      <div>
+         <input type="radio" id="op4" name="op4" value="op4">
+         <label for="op4">Strongly Agree</label>
+      </div>
+      <div>
+         <input type="radio" id="op4" name="op4" value="op4">
+         <label for="op4">Agree</label>
+      </div>
+      <div>
+         <input type="radio" id="op4" name="op4" value="op4">
+         <label for="op4"> Neutral </label>
+      </div>
+      <div>
+         <input type="radio" id="op4" name="op4" value="op4">
+         <label for="op4">Disagree</label>
+      </div>
+      <div>
+         <input type="radio" id="op4" name="op4" value="op4">
+         <label for="op4">Strongly Disagree</label>
+      </div>
+      <p>5. Which foods would you choose? </p>
+      <input type="checkbox" id="foo1" name="foo1" value="Pizza">
+      <label for="foo1"> Pizza</label><br>
+      <input type="checkbox" id="foo2" name="foo2" value="Burger">
+      <label for="foo2"> Burger</label><br>
+      <input type="checkbox" id="foo3" name="foo3" value="Chicken Finger">
+      <label for="foo3"> Chicken Fingers</label><br>
+      <p>6. Which sports do you prefer? </p>
+      <input type="checkbox" id="spo1" name="spo1" value="Basketball">
+      <label for="spo1"> Basketball</label><br>
+      <input type="checkbox" id="spo2" name="spo2" value="Football">
+      <label for="spo2"> Football</label><br>
+      <input type="checkbox" id="spo3" name="spo3" value="Soccer">
+      <label for="spo3"> Soccer</label><br>
+      <p>7. Which languages do you know? </p>
+      <input type="checkbox" id="lan1" name="lan1" value="English">
+      <label for="lan1"> English</label><br>
+      <input type="checkbox" id="lan2" name="lan2" value="Spanish">
+      <label for="lan2"> Spanish</label><br>
+      <input type="checkbox" id="lan3" name="lan3" value="French">
+      <label for="lan3"> French</label><br>
+      <p>8. Which programming language(s) do you know? </p>
+      <input type="checkbox" id="pro1" name="pro1" value="Java">
+      <label for="pro1"> Java</label><br>
+      <input type="checkbox" id="pro2" name="pro2" value="C2P">
+      <label for="pro2"> C++</label><br>
+      <input type="checkbox" id="pro3" name="pro3" value="Python">
+      <label for="pro3"> Python</label><br>
+      <p>9. What type of car do you like? </p>
+      <input type="checkbox" id="car1" name="car1" value="Sedan">
+      <label for="car1"> Sedan</label><br>
+      <input type="checkbox" id="car2" name="car2" value="Coupe">
+      <label for="car2"> Coupe</label><br>
+      <input type="checkbox" id="car3" name="car3" value="SUV">
+      <label for="car3"> SUV</label><br>
+      <input type="checkbox" id="car4" name="car4" value="Truck">
+      <label for="car4"> Truck</label><br>
+      <p>10. What type of beverage do you like? </p>
+      <input type="checkbox" id="bev1" name="bev1" value="Water">
+      <label for="bev1"> Water</label><br>
+      <input type="checkbox" id="bev2" name="bev2" value="Juice">
+      <label for="bev2"> Juice</label><br>
+      <input type="checkbox" id="bev3" name="bev3" value="Soda">
+      <label for="bev3"> Soda</label><br>
+      <input type="checkbox" id="bev4" name="bev4" value="Coffee">
+      <label for="bev4"> Coffee</label><br>
+      <input type="checkbox" id="bev5" name="bev5" value="Forbid">
+      <label for="bev5"> Forbidden Juice 21+ </label><br>
+   </body>
+</html>

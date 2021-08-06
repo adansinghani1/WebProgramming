@@ -1,0 +1,48 @@
+<html>
+   <head>
+    <title>Activity 2 Page</title>
+    <form action="https://codd.cs.gsu.edu/~adansinghani1/WebProgramming/Assignment/2/index.html">
+         <button type="submit">Home</button>
+      </form>
+     <h2> A Basic Calculator </h2>
+   </head>
+    <body>
+      
+      Number 1: <input type="text" id="num1"><br>
+      Number 2: <input type="text" id="num2"><br>
+
+      <p name="result" id="result">Result:</p>
+      <br>
+      <button onclick="addition()">+</button>
+      <button onclick="subtraction()">-</button>
+      <button onclick="multiplication()">x</button>
+      <button onclick="division()">&#247</button>
+      <script>
+         function addition() {
+         	var num1 = parseFloat(document.getElementById("num1").value);
+         	var num2 = parseFloat(document.getElementById("num2").value);
+         	var result = num1 + num2;
+         	document.getElementById("result").innerHTML = result;
+         }
+         function subtraction() {
+         	var num1 = parseFloat(document.getElementById("num1").value);
+         	var num2 = parseFloat(document.getElementById("num2").value);
+         	var result = num1 - num2;
+         	document.getElementById("result").innerHTML = result;
+         }
+         function multiplication(){
+         	var num1 = parseFloat(document.getElementById("num1").value);
+         	var num2 = parseFloat(document.getElementById("num2").value);
+         	var result = num1 * num2;
+         	document.getElementById("result").innerHTML = result;
+         }
+         
+         function division(){
+         	var num1 = parseFloat(document.getElementById("num1").value);
+         	var num2 = parseFloat(document.getElementById("num2").value);
+         	var result = num1 / num2;
+         	document.getElementById("result").innerHTML = result;
+         }
+      </script>
+   </body>
+   </html>

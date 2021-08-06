@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+   <head>
+      <title>Activity 1</title>
+   </head>
+   <body>
+      <script>
+         var n = Number(prompt("Please put in a positive number to generate the Fibonacci Sequence: ", "100"));
+         var input = "";
+         var firstNum = 0;
+         var secondNum = 1;
+         var i;
+         var temp;
+         for (i = 0; i < n; i++) {
+             input += firstNum;
+             if (i !== n-1) {
+                 input += ", ";
+             }
+             temp = firstNum+secondNum;
+             firstNum = secondNum;
+             secondNum = temp;
+         }
+         alert("Here are/is the Fibonacci Sequence (series of numbers) which starts from  " + input);
+      </script>
+   </body>
+</html>

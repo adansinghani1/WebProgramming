@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+   <head>
+      <title> Activity 3 </title>
+     <h1> Welcome to my Array Multiplication Page!</h1>
+   </head>
+   <body>
+	<p> Here are my sample arrays: </p>
+      <script>
+         var matrix1 = [ [10, 15, 18], [80, 21, 32], [48, 81, 19] ];
+         var matrix2 = [ [71, 42, 33], [44, 35, 27], [80, 92, 27]];
+         var finalMatrix = [ [0, 0, 0], [0, 0, 0], [0, 0, 0]];
+         
+         document.write("Values I chose for Array 1: <br>");
+         for(var a = 0; a < 3; a++){
+         	for(var b = 0; b < 3; b++){
+         	document.write(matrix1[a][b] + " ");
+         	}
+         	document.write("<br>");
+         }
+	 document.write("<br>");
+         document.write("Values I chose for Array 2: <br>");
+         for(var a = 0; a <3; a++){
+         	for(var b = 0; b < 3; b++){
+         	document.write(matrix2[a][b] + " ");
+         	}
+         	document.write("<br>");
+         }
+	document.write(" _________________________________________________________ <br>");
+         document.write(" Multiplying the two arrays, we get: <br>");
+         for(var a = 0; a < 3; a++){
+         	for(var b = 0; b <3; b++){
+         		for(var c = 0; c < 3; c++){
+         		finalMatrix[a][b] = finalMatrix[a][b] + matrix1[a][c] * matrix2[a][b];
+         		}
+         	document.write(finalMatrix[a][b] + " ");
+         	}	
+         	document.write("<br>");
+         }
+      </script>
+   </body>
+</html>

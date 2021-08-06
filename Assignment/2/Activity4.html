@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<!--https://www.includehelp.com/code-snippets/javascript-print-value-of-all-checked-selected-checkboxes.aspx-->
+<html>
+   <head>
+    <title>Activity 4 Page: Grocery Checklist</title>
+     <form action="https://codd.cs.gsu.edu/~adansinghani1/WebProgramming/Assignment/2/index.html">
+         <button type="submit">Home</button><br></br>
+      </form>
+
+      <!-- Script part of the code goes here -->
+      <script>
+         function checkedBox(){
+         	var items=document.getElementsByName('items');
+         	var selectedItems="";
+         	for(var i=0; i<items.length; i++){
+         		if(items[i].type=='checkbox' && items[i].checked==true)
+         			selectedItems+=items[i].value+"\n";
+         	}
+         	alert(selectedItems);
+         }			
+      </script>
+   </head>
+   <body>
+      <big>Grocery Checklist: </big><br>
+      <tr>
+         <td> Milk: <input type="checkbox" id="Milk" name="items" value="Milk" /> </td>
+         <td> Bread: <input type="checkbox" id="Bread" name="items" value="Bread" /> </td>
+      </tr>
+      <tr>
+         <td> Soda: <input type="checkbox" id="Soda" name="items" value="Soda" /> </td>
+         <td> Eggs: <input type="checkbox" id="Eggs" name="items" value="Eggs" /> </td>
+      </tr>
+      <tr>
+         <td> Pasta: <input type="checkbox" id="Pasta" name="items" value="Pasta" /> </td>
+         <td> Chicken: <input type="checkbox" id="Chicken" name="items" value="Chicken" /> </td>
+         <br></br>
+         <p>
+            <input type="button" onclick='checkedBox()' value="Check Items"/>
+         </p>
+   </body>
+</html>

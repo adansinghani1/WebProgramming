@@ -1,0 +1,33 @@
+<!--JavaScript - Print value of all checked (selected) CheckBoxes on Button click.-->
+<html>
+	<head>
+		<title>JavaScript - Print value of all checked (selected) CheckBoxes on Button click.</title>
+		<script type="text/javascript">
+			function printChecked(){
+				var items=document.getElementsByName('items');
+				var selectedItems="";
+				for(var i=0; i<items.length; i++){
+					if(items[i].type=='checkbox' && items[i].checked==true)
+						selectedItems+=items[i].value+"\n";
+				}
+				alert(selectedItems);
+			}			
+		</script>
+	</head>
+<body style="text-align: left;">
+	<big>Grocery Checklist: </big><br>
+<tr>
+<td> Milk: <input type="checkbox" id="milk" name="items" value="milk" /> </td>
+<td> Bread: <input type="checkbox" id="Bread" name="items" value="Bread" /> </td> 
+</tr> <tr>
+<td> Soda: <input type="checkbox" id="Soda" name="items" value="Soda" /> </td>
+<td> Eggs: <input type="checkbox" id="Eggs" name="items" value="Eggs" /> </td>
+</tr> <tr>
+<td> Pasta:     <input type="checkbox" id="Pasta" name="items" value="Pasta" /> </td>
+<td> Chicken:     <input type="checkbox" id="Pasta" name="items" value="Pasta" /> </td> <br> <br>
+	<p>
+		<input type="button" onclick='printChecked()' value="Print Selected Items"/>
+	</p>
+</body>
+
+</html>

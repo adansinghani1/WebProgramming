@@ -1,0 +1,7 @@
+https://codd.cs.gsu.edu/~adansinghani1/Classwork/4/mainpage.html
+https://codd.cs.gsu.edu/~adansinghani1/Classwork/4/page2.html
+https://codd.cs.gsu.edu/~adansinghani1/Classwork/4/page3.html
+*links below aren't working but above are. Format of the link is different
+https://codd.cs.gsu.edu/~adansinghani1/WebProgramming/Classwork/4/mainpage.html
+https://codd.cs.gsu.edu/~adansinghani1/WebProgramming/Classwork/4/page2.html
+https://codd.cs.gsu.edu/~adansinghani1/WebProgramming/Classwork/4/page3.html

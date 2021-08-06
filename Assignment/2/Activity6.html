@@ -1,0 +1,62 @@
+<html>
+   <head>
+     <title>Activity 6 Page</title>
+       <form action="https://codd.cs.gsu.edu/~adansinghani1/WebProgramming/Assignment/2/index.html">
+       <button type="submit">Home</button>
+      </form>
+     <big>Login Page</big><br></br>
+      <script>
+         function logIn()
+	 {
+         
+         	var username=["user1","user2","user3"];
+         
+         	var password=["user1-111","user2-222","user3-333"]
+         
+         	var u=document.getElementById('input1').value;
+         
+         	var pw=document.getElementById('input2').value;
+         
+         	var checkU=1;
+         
+         	var checkP=1;
+         
+         	for(let i=0;i<3;i++)
+		{
+         
+         		if(username[i]==u)
+			{
+         
+         		checkU=0;
+         
+         		}
+         
+         		if(password[i]==pw && username[i]==u)
+			{
+         
+         		checkP=0;
+         
+         		}
+         
+         	}
+         
+         	if(checkU==1)
+		{
+         
+         		alert("The username given is not registered");
+         
+         	}
+		else if(checkP==1)
+		{
+         
+         		alert("Password is incorrect. Try again");
+         	}
+         }
+      </script>
+   </head>
+   <body>
+      Username: <input type="text" id="input1"><br>
+      Password: <input type="text" id="input2"/><br>
+      <button onclick="logIn()">Log in</button>
+   </body>
+</html>
