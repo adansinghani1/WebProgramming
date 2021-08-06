@@ -1,0 +1,22 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+html{
+  background-color: black;
+  color:white;
+  font-family: 'Roboto', sans-serif;
+}
+body{
+  background-color: black;
+  color:white;
+  font-family: 'Roboto', sans-serif;
+}
+.contact {
+  cursor: pointer;
+  color: #0088cc;
+}
+
+.contact:hover {
+  text-decoration: underline;
+}
+#data-col{
+  width:50%;
+}
