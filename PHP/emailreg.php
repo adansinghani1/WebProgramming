@@ -1,10 +1,10 @@
 <!DOCTYPE HTML>
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
 <head>
-<title>Member Registration</title>
+<title>Registration</title>
 </head>
 <body>
-<h2>Member Registration- PHP Email Testing
+<h2>Registration using PHP
 </h2>
 <?php
 // retrieve details from POST submission
