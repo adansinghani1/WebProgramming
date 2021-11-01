@@ -11,7 +11,7 @@
 if($_POST["message"]) {
 
 
-mail("adansinghani1@student.gsu.edu", "Here is the subject line")
+mail("adansinghani1@student.gsu.edu", "Here is the subject line");
 
 
 $_POST["insert your message here"]. "From: an@email.address");
